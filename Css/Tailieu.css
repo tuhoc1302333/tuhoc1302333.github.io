@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    border: 2px double whitesmoke;
+    box-shadow: 5px 5px 15px whitesmoke;
+}
+
+.container>.tintuc {
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    clear: both;
+}
+
+.container>.tintuc>img {
+    width: 25%;
+    height: 150px;
+    float: left;
+    margin: 5px 20px 5px;
+}
+
+.container>.tintuc>img:hover {
+    border: 2px solid orange;
+    box-shadow: 0 0 10px orangered;
+    transform: scale(1.2);
+}
+
+.container>.tintuc>a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+    line-height: 40px;
+}
+
+.container>.tintuc>a:hover {
+    text-decoration: underline;
+    color: orange;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.container>.tintuc>.noidung {
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 20px;
+}

@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 7px;
+    background-color: whitesmoke;
+}
+
+.header {
+    text-align: center;
+    padding: 30px;
+    color: black;
+    border: 3px solid blue;
+    margin: 10px;
+    background-color: white;
+}
+
+.header1 h1 {
+    font-size: 35px;
+}
+
+.header p {
+    font-size: 17px;
+}
+
+.header img {
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+
+.top {
+    overflow: hidden;
+    background: rgb(230, 63, 63);
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.top a {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: yellow;
+}
+
+.hang {
+    width: 75%;
+    float: left;
+}
+
+.center {
+    width: 100%;
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 75%;
+    float: left;
+}
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+.images {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 20px black;
+}
+
+.gioithieu a:hover {
+    width: 50%;
+    height: 50%;
+    padding: 3px;
+    box-shadow: 0 0 10px black;
+}
+
+.gioithieu h3:hover {
+    color: red
+}
+
+.gioithieu {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    float: left;
+    margin-left: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kenhfree {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.kenhfree iframe {
+    width: 300;
+    height: 150;
+}
+
+.kenhfree img {
+    width: 10%;
+}
+
+.cot {
+    width: 25%;
+    float: right
+}
+
+.hoc {
+    padding: 10px;
+    margin: 10px;
+}
+
+.hoc img {
+    height: 70%;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(125, 162, 231);
+}
+
+.footer1 {
+    float: left;
+    width: 50%;
+}
+
+.footer2 {
+    float: left;
+    width: 50%;
+}
+
+.footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
